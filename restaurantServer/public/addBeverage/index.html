@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>Add dishes</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <script src="/javascripts/addBurger.js"></script>
+  </head>
+
+  <body>
+    <form id="form" method="post">
+      <h1>Add Beverage</h1>
+      <div class="input">
+        <label for="name">Name</label>
+        <input
+          id="name"
+          type="text"
+          name="name"
+          maxlength="100"
+          placeholder="Enter dish name"
+        />
+      </div>
+
+      <div class="input">
+        <label for="image">Image</label>
+        <input
+          id="image"
+          type="text"
+          name="image"
+          maxlength="200"
+          placeholder="Enter dish image link"
+        />
+      </div>
+
+      <div class="input">
+        <label for="description">Description</label>
+        <input
+          id="description"
+          type="text"
+          name="description"
+          placeholder="Enter dish description"
+        />
+      </div>
+
+      <div id="submit" class="button">Post</div>
+    </form>
+    <div id="errorDiv"></div>
+  </body>
+</html>

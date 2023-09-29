@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Add dishes</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <script src="/javascripts/delete.js"></script>
+  </head>
+
+  <body>
+    <form id="form" method="post">
+      <h1>Delete Beverage</h1>
+      <div class="input">
+        <label for="name">Name</label>
+        <input
+          id="name"
+          type="text"
+          name="name"
+          maxlength="100"
+          placeholder="Enter dish name"
+        />
+      </div>
+      <div id="submit" class="button">Delete</div>
+    </form>
+    <div id="getItems">
+      <div id="getTable" class="button">Get Table</div>
+      <table id="table" cellspacing="0">
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Image</th>
+          <th>Description</th>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
