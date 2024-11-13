@@ -1,4 +1,4 @@
-### ENV
+# ENV
 
 ## Backend
 
@@ -9,7 +9,7 @@ JWT_SECRET=<secret here>
 PORT=<default port here>
 ```
 
-# To generate JWT_SECRET
+### To generate JWT_SECRET
 ```bash
 openssl rand -hex 64
 ```
